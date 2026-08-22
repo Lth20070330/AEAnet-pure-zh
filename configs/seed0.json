@@ -1,0 +1,16 @@
+{
+  "attention_channels": 16,
+  "batch_size": 8,
+  "dataset_name": "custom_dataset",
+  "epochs": 150,
+  "input_size": 224,
+  "lr": 0.004,
+  "num_workers": 8,
+  "output_dir": "runs/seed0",
+  "seed": 0,
+  "selection_metric": "macro_f1",
+  "split_seed": 2026,
+  "val_ratio": 0.1,
+  "warmup_epochs": 20,
+  "weight_decay": 0.05
+}
